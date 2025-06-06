@@ -1,5 +1,6 @@
 zypper install radare2 nodejs-common python313-pipx
 
-pip install frida-tools # CLI tools
-pip install frida       # Python bindings
+mkdir ~/Analysis && cd ~/Analysis/
+
+pipx install frida-tools # CLI tools
 npm install frida       # Node.js bindings
