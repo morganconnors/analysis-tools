@@ -9,7 +9,7 @@ wget https://github.com/NationalSecurityAgency/ghidra/releases/download/Ghidra_1
 mv ghidra_11.3.2_PUBLIC /usr/local/bin/
 echo "export PATH=\"/usr/local/bin/ghidra_11.3.2_PUBLIC:$PATH\"" >> ~/.bashrc
 
-mkdir ~/Analysis
+mkdir ~/Analysis ~/ghidra
 cd ~/Analysis/
 
 pipx install frida-tools # CLI tools
